@@ -10,4 +10,4 @@ This is a simple Weather App built with HTML, CSS, and JavaScript. It allows use
 #### CSS
 #### Vanilla Javascript (ES6+)
 #### OpenWeatherMap API
-![Weather App Screenshot](CapturrWeather.png)
+
