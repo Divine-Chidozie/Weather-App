@@ -75,7 +75,7 @@ p {
   color: hsl(0, 0%, 0%, 75%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 756px) {
   form {
     display: flex;
     justify-content: center;
@@ -85,10 +85,5 @@ p {
   }
   button {
     width: 90%;
-  }
-  .card {
-    width: 75%;
-    max-width: 1200px;
-    margin: 10px auto;
   }
 }
