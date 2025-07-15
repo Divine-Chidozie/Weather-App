@@ -22,17 +22,17 @@ button[type="submit"] {
   padding: 10px 20px;
   font-weight: bold;
   font-size: 2rem;
-  background-color: hsl(122, 39%, 50%);
+  background-color: hsl(210, 100%, 65%);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 button[type="submit"]:hover {
-  background-color: hsl(122, 39%, 40%);
+  background-color: hsl(210, 100%, 55%);
 }
 .card {
-  background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+  background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(45, 100%, 85%));
   padding: 50px;
   box-shadow: 2px 5px hsl(0, 0%, 0%, 0.5);
   min-width: 300px;
@@ -73,4 +73,17 @@ p {
   font-size: 2.5rem;
   font-weight: bold;
   color: hsl(0, 0%, 0%, 75%);
+}
+
+@media (max-width: 576px) {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  button {
+    width: 90%;
+  }
 }
